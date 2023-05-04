@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New York Times</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+     <header>
+        <section class="level-one">
+            <section class="searchCont">
+                <img src="" alt="">
+                <img src="" alt="">
+            </section>
+            <nav>
+                <ul>
+                    <li>U.S</li>
+                    <li>INTERNATIONAL</li>
+                    <li>CANADA</li>
+                    <li>ESPANOL</li>
+                    <li>chino</li>
+                </ul>
+            </nav>
+        
+            <section class="btnContainer">
+            <button>Log In</button>
+            </section>
+        </section>     
+
+
+
+        <section class="level-two">
+            <section class="date"></section>
+            <section class="nyLogo">
+                <img src="image/New-York-Times-logo-768x432.png" width="400px" alt="">
+            </section>
+            <section class="temp"></section>
+
+        </section>
+        
+
+
+    
+
+    
+
+     <section class="level-three">
+        <nav>
+            <ul>
+                <li>World</li> 
+                <li>Us</li> 
+                <li>Politics</li>
+                <li>NY</li> 
+                <li>Opinion</li>
+                <li>Science</li> 
+                <li>Health</li> 
+                <li>Sports</li>
+                <li>Arst</li> 
+                <li>Books</li>
+                <li>Style</li> 
+                <li>Food</li> 
+                <li>Travel</li>
+                <li>Real State</li> 
+                <li>Cooking</li>   
+                <li>The Athletic</li> 
+                <li>Wirecutter</li> 
+                <li>Games</li>
+            </ul>  
+ 
+        </nav>
+    </section>
+
+    </header>
+
+    <section class="liveUpdate">
+        <span>LIVE</span>
+        <p>loren ozdsd </p>
+        <span>3m ago</span>
+       <p>loren jdsfsf</p>
+       <span>6 min ago</span>
+    
+
+
+
+
+    </section>     
+     <main>
+        <section class="topStories"></section>
+        <section class="articleContainers">
+            <article>
+                <h1> lorem ipsum</h1>
+                <p>hud uihasdijsa hisda </p>
+                <span>iaisuh dias</span>
+            </article>
+
+            <article>
+                <h1> lorem ipsum</h1>
+                <p>hud uihasdijsa hisda </p>
+                <span>iaisuh dias</span>
+            </article>
+
+        </section>
+        <section class="mailing"></section>
+
+        <aside></aside>
+        <section class="level-three"></section>
+     
+     
+    </main>  
+
+</body>
+</html>
+
+
+
+-----------------
+header .level-three{
+    
+    position: fixed;  
+     
+    position: relative; 
+}
+
+header .level-three ul {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 1px;
+    margin-top: 6%;
+}
+
+header .level-three ul li {
+    margin: 0 1rem;
+    font-size: 16px;
+    font-weight: lighter;  
+}
+  
+----
+border-bottom: 1px solid rgb(220, 220, 220);
+border-bottom: 1px solid;
+border-bottom: 1px solid lightgrey;
+
+----------
+
+console.log(myInfo);
+
+var b = 20;
+let a = 10;
+const c = 5;
+
+const number = Math.random();
+
+let people = ["Gary", "Nelcy", "Emilio", "Guadalupe", "Ana", "Eugene", "Eduard"] ;
+
+ 
+let myInfo = [ "Ana Grace from DR, my dream is learning really good javascrip so i can find a good work"]
+
+
+let myName = "Ana."
+let country = "im from DR."
+let myDream = " Programing amazin application."
+
+let myInfo = myName + country + myDream;
+
+//----------------------------
+
+let myInfo =   "Ana Grace from DR, my dream is learning really good javascrip so i can find a good work";
